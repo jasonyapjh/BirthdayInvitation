@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Birthday Invitation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #1c1c1c, #3a3a3a);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .invitation {
+            background: #fdfdfd;
+            max-width: 460px;
+            width: 90%;
+            padding: 40px 30px;
+            border-radius: 18px;
+            text-align: center;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            letter-spacing: 2px;
+            font-size: 16px;
+            font-weight: normal;
+            color: #888;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin: 12px 0 6px;
+            color: #f5a2c1;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: #c9a24d;
+            margin: 18px auto;
+        }
+
+        .info {
+            font-size: 17px;
+            color: #444;
+            line-height: 1.8;
+        }
+		
+		.info2 {
+            font-size: 19px;
+            color: #f5a2c1;
+            line-height: 1.8;
+        }
+
+        .highlight {
+            color: #e2cdf7;
+            font-weight: bold;
+        }
+
+        .rsvp {
+            display: inline-block;
+            margin-top: 32px;
+            padding: 14px 34px;
+            background: #dbc1f5;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        .rsvp:hover {
+            background: #b18e3f;
+        }
+
+        footer {
+            margin-top: 28px;
+            font-size: 14px;
+            color: #777;
+        }
+		
+		.photo {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 50%;
+			margin: 0 auto 20px;
+			margin-top:20px;
+			display: block;
+			border: 4px solid #c9a24d;
+		}
+		
+		.photo2 {
+			width: 100%;
+			max-width: 380px;
+			margin: 20px auto;
+			border-radius: 14px;
+			box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+		}
+		.map-btn {
+			display: inline-block;
+			margin-top: 18px;
+			padding: 12px 30px;
+			background: #dbc1f5;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 30px;
+			font-size: 15px;
+			transition: background 0.3s;
+		}
+
+		.map-btn:hover {
+			background: #000;
+		}
+    </style>
+</head>
+
+<body>
+	
+    <div class="invitation">
+        <h1>You Are Invited</h1>
+
+        <h2>Jade’s Birthday Celebration</h2>
+		<img class="photo2"
+		src="https://elegantlivingeveryday.com/wp-content/uploads/2023/10/How-to-Plan-an-Adult-Birthday-Party-Featured-Image.jpg"
+		alt="Birthday Photo">
+		
+        <div class="divider"></div>
+
+        <div class="info2">
+            Kindly join us in celebrating a special occasion<br><br>
+
+            📅 <span class="highlight">20th December 2025</span><br>
+            ⏰ <span class="highlight">8.00PM</span><br>
+            📍 <span class="highlight">YanHuo Restaurant 烟伙餐馆 </span>
+        </div>
+		<a 
+			class="map-btn"
+			href="https://maps.app.goo.gl/im7MVUCpdyHkreLJ9"
+			target="_blank">
+			📍 View on Google Maps
+		</a>
+
+		<img 
+		src="https://drive.google.com/thumbnail?id=17VmGhRwEtmRagRpCWmQaS1tfZ7yr8QVf"
+		alt="Birthday 2"
+		class="photo">
+        <!-- WhatsApp RSVP -->
+		
+        <a 
+            class="rsvp"
+            href="https://wa.me/6592778944?text=Hello%20I%20would%20like%20to%20RSVP%20for%20the%20birthday%20celebration."
+            target="_blank">
+            RSVP via WhatsApp
+        </a>
+
+        <footer>
+            We look forward to celebrating with you！
+        </footer>
+    </div>
+
+</body>
+</html>
